@@ -5,21 +5,80 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638008156646307247
-    m_Hash: 2341616755
+      ticks: 638023779961905400
+    m_Hash: 709565450
   m_LockFileStatus:
     m_FilePath: C:/Users/Ender/Desktop/gamedev/rpg/rpg/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638008156763267039
-    m_Hash: 312621542
+      ticks: 638023779962045523
+    m_Hash: 1482304360
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.leopotam.ecs@https://github.com/Leopotam/ecs.git
+      testable: 0
+      isDirectDependency: 1
+      version: 2022.10.22
+      source: 5
+      resolvedPath: C:\Users\Ender\Desktop\gamedev\rpg\rpg\Library\PackageCache\com.leopotam.ecs@4282b66549
+      assetPath: Packages/com.leopotam.ecs
+      name: com.leopotam.ecs
+      displayName: LeoECS
+      author:
+        name: Leopotam
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "LeoECS - \u043B\u0435\u0433\u043A\u043E\u0432\u0435\u0441\u043D\u044B\u0439
+        ECS-\u0444\u0440\u0435\u0439\u043C\u0432\u043E\u0440\u043A, \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u043D\u044B\u0439
+        \u043D\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0430\u0445.
+        \u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C,
+        \u043D\u0443\u043B\u0435\u0432\u044B\u0435 \u0438\u043B\u0438 \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u044C\u043D\u044B\u0435
+        \u0430\u043B\u043B\u043E\u043A\u0430\u0446\u0438\u0438, \u043C\u0438\u043D\u0438\u043C\u0438\u0437\u0430\u0446\u0438\u044F
+        \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F
+        \u043F\u0430\u043C\u044F\u0442\u0438, \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435
+        \u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E\u0441\u0442\u0435\u0439
+        \u043E\u0442 \u043B\u044E\u0431\u043E\u0433\u043E \u0438\u0433\u0440\u043E\u0432\u043E\u0433\u043E
+        \u0434\u0432\u0438\u0436\u043A\u0430 - \u044D\u0442\u043E \u043E\u0441\u043D\u043E\u0432\u043D\u044B\u0435
+        \u0446\u0435\u043B\u0438 \u0434\u0430\u043D\u043D\u043E\u0433\u043E \u0444\u0440\u0435\u0439\u043C\u0432\u043E\u0440\u043A\u0430."
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - leoecs
+      - ecs
+      - performance
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Leopotam/ecs.git
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.5.7
       testable: 0
       isDirectDependency: 1
@@ -93,6 +152,7 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -220,6 +280,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         compatible:
         - 1.0.2
         - 1.0.6
@@ -252,6 +313,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -508,6 +570,7 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
         - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
@@ -518,6 +581,7 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
         - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
@@ -739,7 +803,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
@@ -818,6 +882,7 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -846,6 +911,7 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -879,7 +945,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -952,6 +1018,57 @@ m_PackageAssets:
       repository:
         type: 
         url: 
+        revision: 
+        path: 
+    - packageId: com.voody.unileo@https://github.com/voody2506/UniLeo.git
+      testable: 0
+      isDirectDependency: 1
+      version: 1.2.1
+      source: 5
+      resolvedPath: C:\Users\Ender\Desktop\gamedev\rpg\rpg\Library\PackageCache\com.voody.unileo@bbaed2aec8
+      assetPath: Packages/com.voody.unileo
+      name: com.voody.unileo
+      displayName: UniLeo
+      author:
+        name: Voody2506
+        email: voody2506@gmail.com
+        url: 
+      category: 
+      type: 
+      description: Unity Conversion Workflow for Leopotam ECS. Easy convert GameObjects
+        to Entity.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - leoecs
+      - ecs
+      - performance
+      - voody2506
+      - UniLeo
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/voody2506/UniLeo.git
         revision: 
         path: 
     - packageId: com.unity.modules.ai@1.0.0
