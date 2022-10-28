@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Leopotam.Ecs;
 using UnityEngine;
 using Voody.UniLeo;
@@ -9,6 +6,8 @@ public class EcsStartup : MonoBehaviour
 {
     private EcsWorld _world;
     private EcsSystems _systems;
+
+    public PlayerInput PlayerInput;
     
     private void Start()
     {
@@ -31,7 +30,7 @@ public class EcsStartup : MonoBehaviour
     
     private void AddInjections()
     {
-        
+        _systems.Inject(PlayerInput);
     }
     
     private void AddOneFrame()

@@ -15,11 +15,11 @@ C:/Users/Ender/Desktop/gamedev/rpg/rpg
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61530
+65529
 Successfully changed project path to: C:/Users/Ender/Desktop/gamedev/rpg/rpg
 C:/Users/Ender/Desktop/gamedev/rpg/rpg
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001684 seconds.
+Registered in 0.001565 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 24.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.807 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003243 seconds.
+Registered in 0.003084 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.792 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.3 MB.
 System memory in use after: 67.3 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1850.
-Total: 1.828400 ms (FindLiveObjects: 0.119700 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.615600 ms  DeleteObjects: 0.062300 ms)
+Total: 1.615100 ms (FindLiveObjects: 0.128900 ms CreateObjectMapping: 0.030200 ms MarkObjects: 1.387000 ms  DeleteObjects: 0.068100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,321 +79,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Packages/com.leopotam.ecs/Leopotam.Ecs.asmdef
-  artifactKey: Guid(656c2c43d3cfe4855bd40e058874b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.leopotam.ecs/Leopotam.Ecs.asmdef using Guid(656c2c43d3cfe4855bd40e058874b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd993c8e616742e155281d6b617d5af') in 0.019639 seconds 
-  Import took 0.021575 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.012261 seconds 
+  Import took 0.016810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Packages/com.leopotam.ecs/package.json
-  artifactKey: Guid(358c4ba84637a40bc908d2aafea29a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.leopotam.ecs/package.json using Guid(358c4ba84637a40bc908d2aafea29a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7642ce7db8e8c46a37e43af12722a02') in 0.019963 seconds 
-  Import took 0.021804 seconds .
+  Time since last request: 10.119555 seconds.
+  path: Assets/Project
+  artifactKey: Guid(3e718b910cba00f479f9709fa80c49fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project using Guid(3e718b910cba00f479f9709fa80c49fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1e3d557c6e04105aa64edad23055fc') in 0.005170 seconds 
+  Import took 0.008735 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.938089 seconds.
-  path: Packages/com.unity.textmeshpro/package.json
-  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6d4de5db3a39bcb3575c98dc9df750') in 0.005940 seconds 
-  Import took 0.007990 seconds .
+  Time since last request: 6.886976 seconds.
+  path: Assets/Project/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.012275 seconds 
+  Import took 0.015222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.232439 seconds.
-  path: Assets/TextMesh Pro/Documentation
-  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5aa99e36510f23d626084d8be9669f') in 0.005014 seconds 
-  Import took 0.007108 seconds .
+  Time since last request: 16.685241 seconds.
+  path: Assets/Project/Scenes/TestScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7413b4377e59d6f4dee44f718c0cd3b4') in 0.005955 seconds 
+  Import took 0.008107 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000732 seconds.
-  path: Assets/TextMesh Pro/Documentation
-  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5aa99e36510f23d626084d8be9669f') in 0.001734 seconds 
-  Import took 0.003518 seconds .
+  Time since last request: 60.637183 seconds.
+  path: Assets/Project/Scripts
+  artifactKey: Guid(5116e2a822d003f43a35ad25504ec41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts using Guid(5116e2a822d003f43a35ad25504ec41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89905d4fd36a57b3a2038e73d79bdd2') in 0.006218 seconds 
+  Import took 0.009507 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.015697 seconds.
-  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
-  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a8cd0d128e2de1afc31d38fd538062') in 0.009334 seconds 
-  Import took 0.011652 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.0 MB.
 
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 1.557700 ms (FindLiveObjects: 0.123700 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.357200 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.413172 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ed59a48b952935c94a9302b2b79e3d') in 0.009066 seconds 
-  Import took 0.011247 seconds .
+  Time since last request: 883.526570 seconds.
+  path: Assets/Project/Scripts/EscStartup.cs
+  artifactKey: Guid(53e33c42408e919458db459b3d1c6aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/EscStartup.cs using Guid(53e33c42408e919458db459b3d1c6aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5366f20a9e97bbb33fb6928efb2f04') in 0.024318 seconds 
+  Import took 0.027209 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001738 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ed59a48b952935c94a9302b2b79e3d') in 0.002207 seconds 
-  Import took 0.004063 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1857.
+Total: 1.806900 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.573600 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3.709064 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80217e6c75f9d2e4957cbc8093faaf48') in 0.046605 seconds 
-  Import took 0.048782 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003013 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.410589 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78a27303d38c5bc73b55289faa0930d') in 0.052339 seconds 
-  Import took 0.054408 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 1.750100 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.507300 ms  DeleteObjects: 0.047800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 9.219967 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e773292f765700e36128470ac2b09b') in 0.006173 seconds 
-  Import took 0.008200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.064258 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e773292f765700e36128470ac2b09b') in 0.002071 seconds 
-  Import took 0.004148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.991562 seconds.
-  path: Packages/com.voody.unileo/Leopotam.Ecs.asmref
-  artifactKey: Guid(bb02755705ce74db8b488a72c53ec61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Leopotam.Ecs.asmref using Guid(bb02755705ce74db8b488a72c53ec61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc09133ca0953b3fc7f8f5e2d41b188') in 0.003298 seconds 
-  Import took 0.005621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Packages/com.voody.unileo/package.json
-  artifactKey: Guid(fe2a41385c4ad4cf4bfa1cf45a1b8a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/package.json using Guid(fe2a41385c4ad4cf4bfa1cf45a1b8a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4af8dcb01c0e9861e7e40f067996522') in 0.001975 seconds 
-  Import took 0.003806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.688454 seconds.
-  path: Packages/com.voody.unileo/README.md
-  artifactKey: Guid(1df48d7a48fd547069d7002adfaa6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/README.md using Guid(1df48d7a48fd547069d7002adfaa6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9161b9c68bee987f67430753b99287') in 0.006217 seconds 
-  Import took 0.008330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002414 seconds.
-  path: Packages/com.voody.unileo/README.md
-  artifactKey: Guid(1df48d7a48fd547069d7002adfaa6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/README.md using Guid(1df48d7a48fd547069d7002adfaa6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9161b9c68bee987f67430753b99287') in 0.002696 seconds 
-  Import took 0.004470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.578961 seconds.
-  path: Packages/com.voody.unileo/Runtime
-  artifactKey: Guid(9018c107cdc8b46e3b8f641e03561547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime using Guid(9018c107cdc8b46e3b8f641e03561547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cfd82a408055a2a55e5f2170a20de8') in 0.005006 seconds 
-  Import took 0.007017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.660422 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers
-  artifactKey: Guid(c985f04eee3df469799618847aadec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers using Guid(c985f04eee3df469799618847aadec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503a45b661cf34ca852c2195930cc57a') in 0.004701 seconds 
-  Import took 0.006743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers
-  artifactKey: Guid(c985f04eee3df469799618847aadec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers using Guid(c985f04eee3df469799618847aadec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503a45b661cf34ca852c2195930cc57a') in 0.001600 seconds 
-  Import took 0.003285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.330080 seconds.
-  path: Packages/com.voody.unileo/Runtime/World
-  artifactKey: Guid(33d534aaefd2f4f8ca107ad3f536efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World using Guid(33d534aaefd2f4f8ca107ad3f536efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca505973b0a0c26ef26c4af472f0641') in 0.005312 seconds 
-  Import took 0.007365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.840449 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Components
-  artifactKey: Guid(f4f695685633c4850bf92ab796e1c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Components using Guid(f4f695685633c4850bf92ab796e1c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be6f1c3abb4712c0dfe73fd070006f4') in 0.004716 seconds 
-  Import took 0.006723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Components
-  artifactKey: Guid(f4f695685633c4850bf92ab796e1c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Components using Guid(f4f695685633c4850bf92ab796e1c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be6f1c3abb4712c0dfe73fd070006f4') in 0.001902 seconds 
-  Import took 0.003982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.931853 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Components/InstantiateComponent.cs
-  artifactKey: Guid(33b441cf427b84bb78a5be554950ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Components/InstantiateComponent.cs using Guid(33b441cf427b84bb78a5be554950ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba08f7eccc392efb1b811b9e882f167') in 0.006755 seconds 
-  Import took 0.009075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002403 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Components/InstantiateComponent.cs
-  artifactKey: Guid(33b441cf427b84bb78a5be554950ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Components/InstantiateComponent.cs using Guid(33b441cf427b84bb78a5be554950ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba08f7eccc392efb1b811b9e882f167') in 0.001530 seconds 
-  Import took 0.003418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.358515 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Systems
-  artifactKey: Guid(2cc1a077b56624b38ac15771f1c57fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Systems using Guid(2cc1a077b56624b38ac15771f1c57fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d864ccee4ae9d1a5e7ac896cad01a48') in 0.004791 seconds 
-  Import took 0.006849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000613 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Systems
-  artifactKey: Guid(2cc1a077b56624b38ac15771f1c57fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Systems using Guid(2cc1a077b56624b38ac15771f1c57fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d864ccee4ae9d1a5e7ac896cad01a48') in 0.001926 seconds 
-  Import took 0.003788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.630242 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Systems/WorldInitSystem.cs
-  artifactKey: Guid(9cae37a4b08254c6583357ef0d090ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Systems/WorldInitSystem.cs using Guid(9cae37a4b08254c6583357ef0d090ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7d7663ec5faaee791f95ad9891c2f0') in 0.005736 seconds 
-  Import took 0.007820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001938 seconds.
-  path: Packages/com.voody.unileo/Runtime/World/Systems/WorldInitSystem.cs
-  artifactKey: Guid(9cae37a4b08254c6583357ef0d090ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/World/Systems/WorldInitSystem.cs using Guid(9cae37a4b08254c6583357ef0d090ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7d7663ec5faaee791f95ad9891c2f0') in 0.001682 seconds 
-  Import took 0.003491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.809530 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/MonoProvider.cs
-  artifactKey: Guid(3e6a26655f90b498a9c6183c7f461e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/MonoProvider.cs using Guid(3e6a26655f90b498a9c6183c7f461e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6312a72ad3fb38eb9bb1b8476dac449f') in 0.005720 seconds 
-  Import took 0.007834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/MonoProvider.cs
-  artifactKey: Guid(3e6a26655f90b498a9c6183c7f461e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/MonoProvider.cs using Guid(3e6a26655f90b498a9c6183c7f461e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6312a72ad3fb38eb9bb1b8476dac449f') in 0.002064 seconds 
-  Import took 0.003843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.513984 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/BaseMonoProvider.cs
-  artifactKey: Guid(445f1694fb72f4fb28f389b44b16bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/BaseMonoProvider.cs using Guid(445f1694fb72f4fb28f389b44b16bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef0b5732d2ceb5f9c56bfe90b912e71') in 0.004937 seconds 
-  Import took 0.006980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001545 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/BaseMonoProvider.cs
-  artifactKey: Guid(445f1694fb72f4fb28f389b44b16bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/BaseMonoProvider.cs using Guid(445f1694fb72f4fb28f389b44b16bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef0b5732d2ceb5f9c56bfe90b912e71') in 0.001946 seconds 
-  Import took 0.003689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.251852 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/ConversionSystemExtension.cs
-  artifactKey: Guid(938517b090cc74a369fdb3f4e8fd6e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/ConversionSystemExtension.cs using Guid(938517b090cc74a369fdb3f4e8fd6e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4813a810d83234d8a777f6d352ec2b4a') in 0.005201 seconds 
-  Import took 0.007253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001167 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/ConversionSystemExtension.cs
-  artifactKey: Guid(938517b090cc74a369fdb3f4e8fd6e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/ConversionSystemExtension.cs using Guid(938517b090cc74a369fdb3f4e8fd6e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4813a810d83234d8a777f6d352ec2b4a') in 0.001811 seconds 
-  Import took 0.003583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.943080 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/ConvertToEntity.cs
-  artifactKey: Guid(863c7f7460b2b49abb4fa9a7ff9cb180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/ConvertToEntity.cs using Guid(863c7f7460b2b49abb4fa9a7ff9cb180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4e0685f36130baaf66ff9457673e91') in 0.004774 seconds 
-  Import took 0.006922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001527 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/ConvertToEntity.cs
-  artifactKey: Guid(863c7f7460b2b49abb4fa9a7ff9cb180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/ConvertToEntity.cs using Guid(863c7f7460b2b49abb4fa9a7ff9cb180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4e0685f36130baaf66ff9457673e91') in 0.001838 seconds 
-  Import took 0.003831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.706364 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/IConvertToEntity.cs
-  artifactKey: Guid(eb7f058e0730d495cb8649581501f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/IConvertToEntity.cs using Guid(eb7f058e0730d495cb8649581501f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4d9469e3e73b2b7241e1adab51e845') in 0.005489 seconds 
-  Import took 0.007535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/IConvertToEntity.cs
-  artifactKey: Guid(eb7f058e0730d495cb8649581501f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/IConvertToEntity.cs using Guid(eb7f058e0730d495cb8649581501f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4d9469e3e73b2b7241e1adab51e845') in 0.001710 seconds 
-  Import took 0.003669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.172098 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/WorldHandler.cs
-  artifactKey: Guid(b249d3a3510f14ad6b2217ee7498a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/WorldHandler.cs using Guid(b249d3a3510f14ad6b2217ee7498a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a8cee0ad89cb0e7da76b318d8f17cb') in 0.004843 seconds 
-  Import took 0.006927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003779 seconds.
-  path: Packages/com.voody.unileo/Runtime/MonoHelpers/WorldHandler.cs
-  artifactKey: Guid(b249d3a3510f14ad6b2217ee7498a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.voody.unileo/Runtime/MonoHelpers/WorldHandler.cs using Guid(b249d3a3510f14ad6b2217ee7498a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a8cee0ad89cb0e7da76b318d8f17cb') in 0.001867 seconds 
-  Import took 0.003690 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
