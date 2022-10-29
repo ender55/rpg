@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
+[Serializable]
 public struct MoveComponent
 {
-    public CharacterController CharacterController;
-    public float Speed;
+    public CharacterController characterController;
+    public float speed;
 }

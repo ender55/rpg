@@ -11,4 +11,5 @@ public class PlayerInput : ScriptableObject
     public KeyCode Left;
     
     //todo: сделать свойства к полям
+    //todo: попробовать реализовать через новую Input Sysyem
 }

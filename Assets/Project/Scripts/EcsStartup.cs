@@ -1,3 +1,4 @@
+using System;
 using Leopotam.Ecs;
 using UnityEngine;
 using Voody.UniLeo;
@@ -5,32 +6,38 @@ using Voody.UniLeo;
 public class EcsStartup : MonoBehaviour
 {
     private EcsWorld _world;
-    private EcsSystems _systems;
+    private EcsSystems _updateSystems;
+    private EcsSystems _fixedUpdateSystems;
 
     public PlayerInput PlayerInput;
     
     private void Start()
     {
         _world = new EcsWorld();
-        _systems = new EcsSystems(_world);
+        _updateSystems = new EcsSystems(_world);
+        _fixedUpdateSystems = new EcsSystems(_world);
 
-        _systems.ConvertScene();
+        _updateSystems.ConvertScene();
+        _fixedUpdateSystems.ConvertScene();
         
         AddInjections();
         AddOneFrame();
         AddSystems();
         
-        _systems.Init();
+        _updateSystems.Init();
+        _fixedUpdateSystems.Init();
     }
 
     private void AddSystems()
     {
-        
+        _updateSystems.
+            Add(new MoveInputSystem()).
+            Add(new MovementSystem());
     }
     
     private void AddInjections()
     {
-        _systems.Inject(PlayerInput);
+        _updateSystems.Inject(PlayerInput);
     }
     
     private void AddOneFrame()
@@ -40,15 +47,20 @@ public class EcsStartup : MonoBehaviour
     
     private void Update()
     {
-        _systems.Run();
+        _updateSystems.Run();
+    }
+
+    private void FixedUpdate()
+    {
+        _fixedUpdateSystems.Run();
     }
 
     private void OnDestroy()
     {
-        if (_systems == null) return;
+        if (_updateSystems == null) return;
 
-        _systems.Destroy();
-        _systems = null;
+        _updateSystems.Destroy();
+        _updateSystems = null;
         _world.Destroy();
         _world = null;
     }

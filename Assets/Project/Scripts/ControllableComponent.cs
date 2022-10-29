@@ -1,7 +1,7 @@
 ﻿using System;
 
 [Serializable]
-public struct PlayerTag
+public struct ControllableComponent
 {
     
 }
